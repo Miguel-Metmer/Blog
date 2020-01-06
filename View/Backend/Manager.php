@@ -14,3 +14,4 @@ class Manager
         return $bdd;
     }
 }
+?>
