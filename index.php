@@ -1,6 +1,5 @@
 <?php
     require("Controller/Controller.php");
-	//Je mets ça là.
     if(isset($_GET["action"]))
     {
         if($_GET["action"] == "Register_New_User")
@@ -57,9 +56,6 @@
         }
         elseif($_GET["action"] == "Report_Comment")
         {
-            /*$test = $_GET['News_Owner'];
-            echo '<script>alert('. $test .')</script>'; */
-
             Report_Comment($_GET["News_Owner"], $_GET["Comment_Id"]);
         }
         elseif($_GET["action"] == "Get_Reported_Comments")

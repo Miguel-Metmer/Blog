@@ -42,14 +42,6 @@ class CommentManager extends Manager
         $this->insert -> execute(array("content" => $this->content, "user" => $user_owner["Id"], "date" => $date, "news" => $news_id));
     }
 
-    public function get_Number_Comments()
-    {
-        $bdd = $this -> connect_To_Database();
-        $this->comments = $bdd -> query('SELECT COUNT(Title) AS title FROM comments INNER JOIN news ON comments.News_Owner = news.Id');
-
-        return $this->comments;
-    }
-
     public function report_Comment($news_id, $comment_id)
     {
         $report = 1;
