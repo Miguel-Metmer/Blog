@@ -48,15 +48,6 @@
                             echo '<h3>' . htmlspecialchars($data['Date']) . '</h3>';
                             echo '<div class="paragraphe_box">';
                                 echo '<p>' . substr(strip_tags($data['Content']), 0, 270) . '...' . '</p>';
-
-                                /*while($comment = $comments -> fetch())
-                                {
-                                        echo '<div class="comments_informations">';
-                                            echo '<h4>' . 'Il y a ' . htmlspecialchars($comment["title"]) . ' Commentaires dans cette article' . '</h4>';
-                                        echo '</div>';
-                                }
-                                $comments -> closeCursor(); */
-
                             echo '</div>';
                         echo '</div>';
                     }
@@ -75,4 +66,4 @@
 
 
 <?php $content = ob_get_clean(); ?>
-<?php include("View/Frontend/template.php");
+<?php include("View/Frontend/Template.php");

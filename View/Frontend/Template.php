@@ -17,5 +17,5 @@
         <a href="index.php?action=Get_Mentions"> Mentions légales </a>
     </footer>
 
-    <script type="text/javascript" src="../public/js/tiny.js"> </script>
+    <script type="text/javascript" src="../public/js/Tiny.js"> </script>
 </html>

@@ -430,3 +430,400 @@ nav ul li a:hover
         margin: 10px 0;
     }
 }
+
+@media (min-width: 900px)
+{
+    #Top
+    {
+        display: flex;
+        border-bottom: 1px solid gray;
+    }
+
+    header
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header a 
+    {
+        text-decoration: none;
+        text-align: center;
+        margin: auto 0;
+        color: black;
+    }
+
+    header a strong
+    {
+        font-size: 2em;
+    }
+    
+    nav
+    {
+        width: 50%;
+    }
+    
+    nav ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li 
+    {
+        font-size: 2em;
+        margin: 2%;
+    }
+    
+    nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #Middle-Slider img
+    {
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin: auto;
+    }
+
+    #Articles #Articles_Box
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .articles h2 a
+    {
+        text-decoration: none;
+        animation: change-color 4.0s infinite;
+    }
+
+    .articles h2 a:hover
+    {
+        color: royalblue;
+    }
+
+
+    section h1, h2, h3, h4, h5, h6
+    {
+        text-align: center;
+    }
+
+    section h1
+    {
+        font-size: 2em;
+    }
+
+    #Connexion
+    {
+        width: 100%;
+    }
+
+    #Connexion img
+    {
+        width: 15%;
+        display: block;
+        margin: auto;
+        border: 1px solid grey;
+        border-radius: 100%;
+        box-shadow: 5px 10px 10px 1px;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+
+    #Connexion form
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        background-color: white;
+        box-shadow: 5px 10px 20px 1px;
+    }
+
+    #Connexion form div
+    {
+        width: 100%;
+        margin: 2% auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Connexion form div label
+    {
+        font-size: 3em;  
+        color: gray;
+    }
+
+    #Connexion form div input
+    {
+        margin-left: 1%;
+        font-size: 1em;
+        border: none;
+    }
+
+    hr
+    {
+        color: gray;
+        width: 90%;
+    }
+
+    #Connexion form #submit
+    {
+        width: 100%;
+        height: 50px;
+    }
+
+    #Connexion div 
+    {
+        width: 50%;
+        margin: 2% auto;
+    }
+
+    #Connexion div a
+    {
+        text-decoration: none;
+    }
+
+    #Profil
+    {
+        width: 100%;
+    }
+
+    #Profil #Informations
+    {
+        width: 50%;
+        margin: auto ;
+    }
+
+    #Profil #Informations p
+    {
+        text-align: center;
+        font-size: 2em;
+        border: 1px solid black;
+    }
+
+    #Profil #Logout
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Logout a
+    {
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+    }
+
+    #Logout a:hover
+    {
+        color: royalblue;
+    }
+
+    .articles
+    {
+        width: 25%;
+        margin: 2% auto;
+        border: 2px solid black;
+        background-color: white;
+        box-shadow: 5px 5px 20px 2px;
+    }
+
+    .paragraphe_box
+    {
+        background-color: white;
+    }
+
+    .articles p
+    {
+        text-align: center;
+        margin: 0;
+    }
+
+    .articles h2
+    {
+        background-color: rgb(247, 239, 239);
+        margin: 0;
+        padding: 10% 0;
+    }
+
+
+    .articles h3
+    {
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding-bottom: 10%;
+        background-color: rgb(247, 239, 239); 
+    }
+
+    .forbiden_access
+    {
+        font-size: 50px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #Create form
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    #Article
+    {
+        height: 600px;
+    }
+
+    #Article_Title
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+
+    #Article_Title input
+    {
+        width: 25%;
+        height: 20px;
+        text-align: center;
+    }
+
+    #Create form label
+    {
+        font-size: 2.0em;
+    }
+    
+    #Publish
+    {
+        padding: 1% 2%;
+        margin: 2% 0;
+    }
+
+    #Articles_List_Form
+    {
+        display: flex;
+    }
+
+    #Articles_List_Form label
+    {
+        margin-right: 2%;
+    }
+
+    .article_paragraphe
+    {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        border: 2px solid black;
+        box-shadow: 5px 1px 5px 2px;
+        background-color: rgb(240, 245, 245);
+    }
+
+    #Users_Comments
+    {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment
+    {
+        border: 2px solid black;
+        margin-bottom: 5%;
+        text-align: center;
+        background-color: rgb(240, 245, 245);
+    }
+
+    #Comment_Post
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Comment_Post textarea
+    {
+        resize: none;
+        height: 200px;
+    }
+
+    #Comment_Post #User_Name_Input
+    {
+        width: 25%;
+        height: 50px;
+        align-self: center;
+        margin: 5% 0;
+        text-align: center;
+        background-color: rgb(233, 223, 223);
+    }
+
+    #Comment_Post #Send_Comment
+    {
+        width: 25%;
+        height: 50px;
+        align-self: center;
+        margin: 5% 0;
+    }
+
+    .comments_informations
+    {
+        border-top: 1px solid black;
+        margin-top: 5px;
+    }
+
+    #Comment_Post_Unvailable
+    {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #Comment_Post_Unvailable a
+    {
+        text-decoration: none;
+        color: royalblue;
+    }
+
+    #Mentions
+    {
+        text-align: center;
+    }
+
+    footer
+    {
+        margin-top: 5%;
+        background-color: rgb(43, 43, 43);
+        padding: 0.5% 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a
+    {
+        margin-left: 2%;
+        font-size: 1.0em;
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover
+    {
+        color: royalblue;
+    }
+
+    .comment form input
+    {
+        margin: 10px 0;
+    }
+}

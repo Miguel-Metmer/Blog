@@ -25,10 +25,7 @@ function Disconnect()
 function Show_Articles()
 {
     $ArticleManager = new ArticleManager();
-    $CommentManager = new CommentManager();
-
     $news = $ArticleManager -> get_Articles();
-    $comments =$CommentManager -> get_Number_Comments();
 
     require("View/Frontend/Home.php");
 }
