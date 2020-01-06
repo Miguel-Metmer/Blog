@@ -48,7 +48,6 @@
                             echo '<h3>' . htmlspecialchars($data['Date']) . '</h3>';
                             echo '<div class="paragraphe_box">';
                                 echo '<p>' . substr(strip_tags($data['Content']), 0, 270) . '...' . '</p>';
-
                             echo '</div>';
                         echo '</div>';
                     }
