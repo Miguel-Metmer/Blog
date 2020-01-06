@@ -71,6 +71,11 @@ nav ul li a:hover
         color: black;
     }
 
+    #Middle-Slider
+    {
+        /* Vide pour le moment */
+    }
+
     #Middle-Slider img
     {
         display: block;
@@ -83,18 +88,6 @@ nav ul li a:hover
     {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    #Articles h2 a
-    {
-        text-decoration: none;
-        color: black;
-    }
-
-    #Articles h2 a:hover
-    {
-        color: royalblue;
-        
     }
 
 

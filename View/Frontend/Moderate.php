@@ -34,6 +34,7 @@
                                         echo '<h2>' . htmlspecialchars($data["Username"]) . '</h2>';
                                         echo '<h3>' . htmlspecialchars($data["Date"]) . '</h3>';
                                         echo '<p>' . htmlspecialchars($data["Content"]) . '</p>';
+                                        echo '<p>' . htmlspecialchars($data["Id"]) . '</p>';
 
                                         echo '<form method="post" action="index.php">';
                                             echo '<input type="hidden" name="Comment_Id" value=' . htmlspecialchars($data["Id"]) . '>';
