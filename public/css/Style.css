@@ -1,3 +1,20 @@
+
+@keyframes change-color
+{
+    0% 
+    {
+        color: black;
+    }
+    75%
+    {
+        color: royalblue;
+    }
+    100%
+    {
+        color: black;
+    }
+}
+
 html
 {
     margin: 0;
@@ -71,11 +88,6 @@ nav ul li a:hover
         color: black;
     }
 
-    #Middle-Slider
-    {
-        /* Vide pour le moment */
-    }
-
     #Middle-Slider img
     {
         display: block;
@@ -88,6 +100,17 @@ nav ul li a:hover
     {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .articles h2 a
+    {
+        text-decoration: none;
+        animation: change-color 4.0s infinite;
+    }
+
+    .articles h2 a:hover
+    {
+        color: royalblue;
     }
 
 
