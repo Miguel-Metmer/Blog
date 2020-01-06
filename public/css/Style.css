@@ -90,6 +90,18 @@ nav ul li a:hover
         flex-wrap: wrap;
     }
 
+    #Articles h2 a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #Articles h2 a:hover
+    {
+        color: royalblue;
+        
+    }
+
 
     section h1, h2, h3, h4, h5, h6
     {
