@@ -19,7 +19,7 @@
         </div>
 
         <section id="Comments">
-            <h1> Commentaires </h1>
+            <h1> Commentaires Signalés </h1>
                 <?php 
                     while($data = $reported -> fetch())
                     {
