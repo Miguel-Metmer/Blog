@@ -115,7 +115,6 @@ function Report_Comment($news_id, $comment_id)
     $CommentManager = new CommentManager();
     $CommentManager -> report_Comment($news_id, $comment_id);
     header('Location: Index.php');
-    //Get_Article($current_Article);
 }
 
 function Get_Reported_Comments()
@@ -125,7 +124,6 @@ function Get_Reported_Comments()
     $reported = $CommentManager -> get_Reported_Comments();
 
     require('View/Frontend/Moderate.php');
-    //Get_Article($current_Article);
 }
 
 function Delete_Comment()
