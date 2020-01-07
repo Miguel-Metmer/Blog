@@ -14,4 +14,8 @@ class Manager
         return $bdd;
     }
 }
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> modification
