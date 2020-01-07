@@ -13,7 +13,7 @@ class RegistrationManager extends Manager
 
     public function __construct()
     {
-        $this->name = $_POST['name']; // on stockes les valeurs reçues dans des variables.
+        $this->name = $_POST['name']; 
         $this->surname = $_POST['surname'];
         $this->username = $_POST['user_name'];
         $this->password = $_POST['user_password'];
@@ -27,7 +27,7 @@ class RegistrationManager extends Manager
 
         if($this->data = $this->check -> fetch())
         {
-            header('Location: index.php?action=To_Register'); // Si utilisateur existe déjà.
+            header('Location: index.php?action=To_Register'); 
         }
         else
         {    
