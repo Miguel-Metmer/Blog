@@ -28,7 +28,7 @@
             <input id="submit" type="submit">
         </form>
         <div>
-            <p> Si le "Nom d'utilisateur" ou "Mot de passe" le formulaire sera remis à zéro. </p>
+            <p> Si le "Nom d'utilisateur" ou "Mot de passe" sont erronés le formulaire sera remis à zéro. </p>
             <a href="index.php?action=To_Register"> Créer un compte </a>
         </div>
     </section>
