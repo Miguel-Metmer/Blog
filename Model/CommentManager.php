@@ -1,5 +1,5 @@
 <?php
-require_once("View/Backend/Manager.php");
+require_once("Model/Manager.php");
 class CommentManager extends Manager
 {
     private $bdd;
