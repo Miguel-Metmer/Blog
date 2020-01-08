@@ -431,17 +431,30 @@ nav ul li a:hover
     }
 }
 
+<<<<<<< HEAD
 @media (min-width: 900px)
+=======
+/*------- Breakpoint------- */
+@media (min-width: 901px) and (max-width: 1199px)
+>>>>>>> modification
 {
     #Top
     {
         display: flex;
+<<<<<<< HEAD
+=======
+        flex-direction: column;
+>>>>>>> modification
         border-bottom: 1px solid gray;
     }
 
     header
     {
+<<<<<<< HEAD
         width: 50%;
+=======
+        width: 100%;
+>>>>>>> modification
         display: flex;
         justify-content: center;
     }
@@ -461,7 +474,11 @@ nav ul li a:hover
     
     nav
     {
+<<<<<<< HEAD
         width: 50%;
+=======
+        width: 100%;
+>>>>>>> modification
     }
     
     nav ul 
@@ -470,7 +487,11 @@ nav ul li a:hover
         margin: 0;
         padding: 0;
         display: flex;
+<<<<<<< HEAD
         justify-content: flex-end;
+=======
+        justify-content: center;
+>>>>>>> modification
     }
     
     nav ul li 
@@ -489,7 +510,11 @@ nav ul li a:hover
     {
         display: block;
         width: 100%;
+<<<<<<< HEAD
         height: 500px;
+=======
+        height: 250px;
+>>>>>>> modification
         margin: auto;
     }
 
@@ -499,6 +524,18 @@ nav ul li a:hover
         flex-wrap: wrap;
     }
 
+<<<<<<< HEAD
+=======
+    .articles
+    {
+        width: 30%;
+        margin: 2% auto;
+        border: 2px solid black;
+        background-color: white;
+        box-shadow: 5px 5px 20px 2px;
+    }
+
+>>>>>>> modification
     .articles h2 a
     {
         text-decoration: none;
@@ -528,7 +565,11 @@ nav ul li a:hover
 
     #Connexion img
     {
+<<<<<<< HEAD
         width: 15%;
+=======
+        width: 50%;
+>>>>>>> modification
         display: block;
         margin: auto;
         border: 1px solid grey;
@@ -542,7 +583,11 @@ nav ul li a:hover
     {
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         width: 50%;
+=======
+        width: 80%;
+>>>>>>> modification
         margin: auto;
         background-color: white;
         box-shadow: 5px 10px 20px 1px;
@@ -559,14 +604,22 @@ nav ul li a:hover
 
     #Connexion form div label
     {
+<<<<<<< HEAD
         font-size: 3em;  
+=======
+        font-size: 2em;  
+>>>>>>> modification
         color: gray;
     }
 
     #Connexion form div input
     {
         margin-left: 1%;
+<<<<<<< HEAD
         font-size: 1em;
+=======
+        font-size: 1.5em;
+>>>>>>> modification
         border: none;
     }
 
@@ -584,7 +637,11 @@ nav ul li a:hover
 
     #Connexion div 
     {
+<<<<<<< HEAD
         width: 50%;
+=======
+        width: 80%;
+>>>>>>> modification
         margin: 2% auto;
     }
 
@@ -600,14 +657,23 @@ nav ul li a:hover
 
     #Profil #Informations
     {
+<<<<<<< HEAD
         width: 50%;
         margin: auto ;
+=======
+        width: 80%;
+        margin: auto;
+>>>>>>> modification
     }
 
     #Profil #Informations p
     {
         text-align: center;
+<<<<<<< HEAD
         font-size: 2em;
+=======
+        font-size: 1.5em;
+>>>>>>> modification
         border: 1px solid black;
     }
 
@@ -629,15 +695,427 @@ nav ul li a:hover
         color: royalblue;
     }
 
+<<<<<<< HEAD
     .articles
     {
         width: 25%;
+=======
+    .paragraphe_box
+    {
+        background-color: white;
+    }
+
+    .articles p
+    {
+        text-align: center;
+        margin: 0;
+    }
+
+    .articles h2
+    {
+        background-color: rgb(247, 239, 239);
+        margin: 0;
+        padding: 10% 0;
+    }
+
+
+    .articles h3
+    {
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding-bottom: 10%;
+        background-color: rgb(247, 239, 239); 
+    }
+
+    .forbiden_access
+    {
+        font-size: 50px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #Create form
+    {
+        width: 50%;
+        margin: auto;
+    }
+
+    #Article
+    {
+        height: 400px;
+    }
+
+    #Article_Title
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+
+    #Article_Title input
+    {
+        width: 50%;
+        height: 50px;
+        text-align: center;
+    }
+
+    #Create form label
+    {
+        font-size: 2.0em;
+    }
+    
+    #Publish
+    {
+        padding: 4% 6%;
+        margin: 2% 0;
+    }
+
+    #Articles_List_Form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Articles_List_Form label
+    {
+        text-align: center;
+    }
+
+    #Articles_List_Form select
+    {
+        font-size: 1.0em;
+    }
+    #Articles_List_Form input
+    {
+        font-size: 1.0em;
+    }
+    
+
+    .article_paragraphe
+    {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        border: 2px solid black;
+        box-shadow: 5px 1px 5px 2px;
+        background-color: rgb(240, 245, 245);
+    }
+
+    #Users_Comments
+    {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment
+    {
+        border: 2px solid black;
+        margin-bottom: 5%;
+        text-align: center;
+        background-color: rgb(240, 245, 245);
+    }
+
+    #Comment_Post
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Comment_Post textarea
+    {
+        resize: none;
+        height: 200px;
+    }
+
+    #Comment_Post #User_Name_Input
+    {
+        width: 50%;
+        height: 50px;
+        align-self: center;
+        margin: 5% 0;
+        text-align: center;
+        background-color: rgb(233, 223, 223);
+    }
+
+    #Comment_Post #Send_Comment
+    {
+        width: 50%;
+        height: 50px;
+        align-self: center;
+        margin: 5% 0;
+    }
+
+    .comments_informations
+    {
+        border-top: 1px solid black;
+        margin-top: 5px;
+    }
+
+    #Comment_Post_Unvailable
+    {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #Comment_Post_Unvailable a
+    {
+        text-decoration: none;
+        color: royalblue;
+    }
+
+    #Mentions
+    {
+        text-align: center;
+    }
+
+    footer
+    {
+        margin-top: 5%;
+        background-color: rgb(43, 43, 43);
+        padding: 0.5% 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a
+    {
+        margin-left: 2%;
+        font-size: 1.5em;
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover
+    {
+        color: royalblue;
+    }
+
+    .comment form input
+    {
+        margin: 10px 0;
+    }
+}
+
+
+/*------- Breakpoint------- */
+@media (min-width: 300px) and (max-width: 900px)
+{
+    #Top
+    {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid gray;
+    }
+
+    header
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header a 
+    {
+        text-decoration: none;
+        text-align: center;
+        margin: auto 0;
+        color: black;
+    }
+
+    header a strong
+    {
+        font-size: 2em;
+    }
+    
+    nav
+    {
+        width: 100%;
+    }
+    
+    nav ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li 
+    {
+        font-size: 2em;
+        margin: 2%;
+    }
+    
+    nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #Middle-Slider img
+    {
+        display: block;
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+
+    #Articles #Articles_Box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles
+    {
+        width: 75%;
+>>>>>>> modification
         margin: 2% auto;
         border: 2px solid black;
         background-color: white;
         box-shadow: 5px 5px 20px 2px;
     }
 
+<<<<<<< HEAD
+=======
+    .articles h2 a
+    {
+        text-decoration: none;
+        animation: change-color 4.0s infinite;
+    }
+
+    .articles h2 a:hover
+    {
+        color: royalblue;
+    }
+
+
+    section h1, h2, h3, h4, h5, h6
+    {
+        text-align: center;
+    }
+
+    section h1
+    {
+        font-size: 2em;
+    }
+
+    #Connexion
+    {
+        width: 100%;
+    }
+
+    #Connexion img
+    {
+        width: 50%;
+        display: block;
+        margin: auto;
+        border: 1px solid grey;
+        border-radius: 100%;
+        box-shadow: 5px 10px 10px 1px;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+
+    #Connexion form
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        box-shadow: 5px 10px 20px 1px;
+    }
+
+    #Connexion form div
+    {
+        width: 100%;
+        margin: 2% auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Connexion form div label
+    {
+        font-size: 2em;  
+        color: gray;
+    }
+
+    #Connexion form div input
+    {
+        margin-left: 1%;
+        font-size: 1.5em;
+        border: none;
+    }
+
+    hr
+    {
+        color: gray;
+        width: 90%;
+    }
+
+    #Connexion form #submit
+    {
+        width: 100%;
+        height: 50px;
+    }
+
+    #Connexion div 
+    {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    #Connexion div a
+    {
+        text-decoration: none;
+    }
+
+    #Profil
+    {
+        width: 100%;
+    }
+
+    #Profil #Informations
+    {
+        width: 80%;
+        margin: auto;
+    }
+
+    #Profil #Informations p
+    {
+        text-align: center;
+        font-size: 1.5em;
+        border: 1px solid black;
+    }
+
+    #Profil #Logout
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Logout a
+    {
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+    }
+
+    #Logout a:hover
+    {
+        color: royalblue;
+    }
+
+>>>>>>> modification
     .paragraphe_box
     {
         background-color: white;
@@ -681,7 +1159,11 @@ nav ul li a:hover
 
     #Article
     {
+<<<<<<< HEAD
         height: 600px;
+=======
+        height: 400px;
+>>>>>>> modification
     }
 
     #Article_Title
@@ -694,8 +1176,13 @@ nav ul li a:hover
 
     #Article_Title input
     {
+<<<<<<< HEAD
         width: 25%;
         height: 20px;
+=======
+        width: 50%;
+        height: 50px;
+>>>>>>> modification
         text-align: center;
     }
 
@@ -706,24 +1193,51 @@ nav ul li a:hover
     
     #Publish
     {
+<<<<<<< HEAD
         padding: 1% 2%;
+=======
+        padding: 4% 6%;
+>>>>>>> modification
         margin: 2% 0;
     }
 
     #Articles_List_Form
     {
         display: flex;
+<<<<<<< HEAD
+=======
+        flex-direction: column;
+>>>>>>> modification
     }
 
     #Articles_List_Form label
     {
+<<<<<<< HEAD
         margin-right: 2%;
     }
+=======
+        text-align: center;
+    }
+
+    #Articles_List_Form select
+    {
+        font-size: 1.5em;
+    }
+    #Articles_List_Form input
+    {
+        font-size: 1.5em;
+    }
+    
+>>>>>>> modification
 
     .article_paragraphe
     {
         text-align: center;
+<<<<<<< HEAD
         width: 75%;
+=======
+        width: 90%;
+>>>>>>> modification
         margin: auto;
         border: 2px solid black;
         box-shadow: 5px 1px 5px 2px;
@@ -732,7 +1246,11 @@ nav ul li a:hover
 
     #Users_Comments
     {
+<<<<<<< HEAD
         width: 50%;
+=======
+        width: 80%;
+>>>>>>> modification
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -746,6 +1264,14 @@ nav ul li a:hover
         background-color: rgb(240, 245, 245);
     }
 
+<<<<<<< HEAD
+=======
+    .comment form input
+    {
+        height: 50px; 
+    }
+
+>>>>>>> modification
     #Comment_Post
     {
         display: flex;
@@ -760,7 +1286,11 @@ nav ul li a:hover
 
     #Comment_Post #User_Name_Input
     {
+<<<<<<< HEAD
         width: 25%;
+=======
+        width: 50%;
+>>>>>>> modification
         height: 50px;
         align-self: center;
         margin: 5% 0;
@@ -770,7 +1300,11 @@ nav ul li a:hover
 
     #Comment_Post #Send_Comment
     {
+<<<<<<< HEAD
         width: 25%;
+=======
+        width: 50%;
+>>>>>>> modification
         height: 50px;
         align-self: center;
         margin: 5% 0;
@@ -812,7 +1346,11 @@ nav ul li a:hover
     footer a
     {
         margin-left: 2%;
+<<<<<<< HEAD
         font-size: 1.0em;
+=======
+        font-size: 1.5em;
+>>>>>>> modification
         color: white;
         text-decoration: none;
     }
