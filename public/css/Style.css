@@ -431,30 +431,19 @@ nav ul li a:hover
     }
 }
 
-<<<<<<< HEAD
-@media (min-width: 900px)
-=======
 /*------- Breakpoint------- */
 @media (min-width: 901px) and (max-width: 1199px)
->>>>>>> modification
 {
     #Top
     {
         display: flex;
-<<<<<<< HEAD
-=======
         flex-direction: column;
->>>>>>> modification
         border-bottom: 1px solid gray;
     }
 
     header
     {
-<<<<<<< HEAD
-        width: 50%;
-=======
         width: 100%;
->>>>>>> modification
         display: flex;
         justify-content: center;
     }
@@ -474,11 +463,7 @@ nav ul li a:hover
     
     nav
     {
-<<<<<<< HEAD
-        width: 50%;
-=======
         width: 100%;
->>>>>>> modification
     }
     
     nav ul 
@@ -487,11 +472,7 @@ nav ul li a:hover
         margin: 0;
         padding: 0;
         display: flex;
-<<<<<<< HEAD
-        justify-content: flex-end;
-=======
         justify-content: center;
->>>>>>> modification
     }
     
     nav ul li 
@@ -510,11 +491,7 @@ nav ul li a:hover
     {
         display: block;
         width: 100%;
-<<<<<<< HEAD
-        height: 500px;
-=======
         height: 250px;
->>>>>>> modification
         margin: auto;
     }
 
@@ -524,8 +501,6 @@ nav ul li a:hover
         flex-wrap: wrap;
     }
 
-<<<<<<< HEAD
-=======
     .articles
     {
         width: 30%;
@@ -535,7 +510,6 @@ nav ul li a:hover
         box-shadow: 5px 5px 20px 2px;
     }
 
->>>>>>> modification
     .articles h2 a
     {
         text-decoration: none;
@@ -565,11 +539,7 @@ nav ul li a:hover
 
     #Connexion img
     {
-<<<<<<< HEAD
-        width: 15%;
-=======
         width: 50%;
->>>>>>> modification
         display: block;
         margin: auto;
         border: 1px solid grey;
@@ -583,11 +553,7 @@ nav ul li a:hover
     {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
-        width: 50%;
-=======
         width: 80%;
->>>>>>> modification
         margin: auto;
         background-color: white;
         box-shadow: 5px 10px 20px 1px;
@@ -604,22 +570,14 @@ nav ul li a:hover
 
     #Connexion form div label
     {
-<<<<<<< HEAD
-        font-size: 3em;  
-=======
         font-size: 2em;  
->>>>>>> modification
         color: gray;
     }
 
     #Connexion form div input
     {
         margin-left: 1%;
-<<<<<<< HEAD
-        font-size: 1em;
-=======
         font-size: 1.5em;
->>>>>>> modification
         border: none;
     }
 
@@ -637,11 +595,7 @@ nav ul li a:hover
 
     #Connexion div 
     {
-<<<<<<< HEAD
-        width: 50%;
-=======
         width: 80%;
->>>>>>> modification
         margin: 2% auto;
     }
 
@@ -657,23 +611,14 @@ nav ul li a:hover
 
     #Profil #Informations
     {
-<<<<<<< HEAD
-        width: 50%;
-        margin: auto ;
-=======
         width: 80%;
         margin: auto;
->>>>>>> modification
     }
 
     #Profil #Informations p
     {
         text-align: center;
-<<<<<<< HEAD
-        font-size: 2em;
-=======
         font-size: 1.5em;
->>>>>>> modification
         border: 1px solid black;
     }
 
@@ -695,11 +640,6 @@ nav ul li a:hover
         color: royalblue;
     }
 
-<<<<<<< HEAD
-    .articles
-    {
-        width: 25%;
-=======
     .paragraphe_box
     {
         background-color: white;
@@ -976,15 +916,12 @@ nav ul li a:hover
     .articles
     {
         width: 75%;
->>>>>>> modification
         margin: 2% auto;
         border: 2px solid black;
         background-color: white;
         box-shadow: 5px 5px 20px 2px;
     }
 
-<<<<<<< HEAD
-=======
     .articles h2 a
     {
         text-decoration: none;
@@ -1115,7 +1052,6 @@ nav ul li a:hover
         color: royalblue;
     }
 
->>>>>>> modification
     .paragraphe_box
     {
         background-color: white;
@@ -1159,11 +1095,7 @@ nav ul li a:hover
 
     #Article
     {
-<<<<<<< HEAD
-        height: 600px;
-=======
         height: 400px;
->>>>>>> modification
     }
 
     #Article_Title
@@ -1176,13 +1108,8 @@ nav ul li a:hover
 
     #Article_Title input
     {
-<<<<<<< HEAD
-        width: 25%;
-        height: 20px;
-=======
         width: 50%;
         height: 50px;
->>>>>>> modification
         text-align: center;
     }
 
@@ -1193,29 +1120,18 @@ nav ul li a:hover
     
     #Publish
     {
-<<<<<<< HEAD
-        padding: 1% 2%;
-=======
         padding: 4% 6%;
->>>>>>> modification
         margin: 2% 0;
     }
 
     #Articles_List_Form
     {
         display: flex;
-<<<<<<< HEAD
-=======
         flex-direction: column;
->>>>>>> modification
     }
 
     #Articles_List_Form label
     {
-<<<<<<< HEAD
-        margin-right: 2%;
-    }
-=======
         text-align: center;
     }
 
@@ -1228,16 +1144,11 @@ nav ul li a:hover
         font-size: 1.5em;
     }
     
->>>>>>> modification
 
     .article_paragraphe
     {
         text-align: center;
-<<<<<<< HEAD
-        width: 75%;
-=======
         width: 90%;
->>>>>>> modification
         margin: auto;
         border: 2px solid black;
         box-shadow: 5px 1px 5px 2px;
@@ -1246,11 +1157,7 @@ nav ul li a:hover
 
     #Users_Comments
     {
-<<<<<<< HEAD
-        width: 50%;
-=======
         width: 80%;
->>>>>>> modification
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -1264,14 +1171,11 @@ nav ul li a:hover
         background-color: rgb(240, 245, 245);
     }
 
-<<<<<<< HEAD
-=======
     .comment form input
     {
         height: 50px; 
     }
 
->>>>>>> modification
     #Comment_Post
     {
         display: flex;
@@ -1286,11 +1190,7 @@ nav ul li a:hover
 
     #Comment_Post #User_Name_Input
     {
-<<<<<<< HEAD
-        width: 25%;
-=======
         width: 50%;
->>>>>>> modification
         height: 50px;
         align-self: center;
         margin: 5% 0;
@@ -1300,11 +1200,7 @@ nav ul li a:hover
 
     #Comment_Post #Send_Comment
     {
-<<<<<<< HEAD
-        width: 25%;
-=======
         width: 50%;
->>>>>>> modification
         height: 50px;
         align-self: center;
         margin: 5% 0;
@@ -1346,11 +1242,7 @@ nav ul li a:hover
     footer a
     {
         margin-left: 2%;
-<<<<<<< HEAD
-        font-size: 1.0em;
-=======
         font-size: 1.5em;
->>>>>>> modification
         color: white;
         text-decoration: none;
     }
