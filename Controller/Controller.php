@@ -1,8 +1,8 @@
 <?php 
-require("View/Backend/RegistationManager.php");
-require("View/Backend/ConnexionManager.php");
-require("View/Backend/ArticleManager.php");
-require("View/Backend/CommentManager.php");
+require("Model/RegistationManager.php");
+require("Model/ConnexionManager.php");
+require("Model/ArticleManager.php");
+require("Model/CommentManager.php");
 
 function Register_New_User()
 {
