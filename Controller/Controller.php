@@ -1,8 +1,10 @@
 <?php 
-require("Model/RegistationManager.php");
-require("Model/ConnexionManager.php");
-require("Model/ArticleManager.php");
-require("Model/CommentManager.php");
+
+function Auto_Load_Class($className)
+{
+    require('Model/' . $className . '.php');
+}
+spl_autoload_register("Auto_Load_Class");
 
 function Register_New_User()
 {
