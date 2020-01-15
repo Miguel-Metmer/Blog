@@ -18,13 +18,12 @@
         <?php 
             while($data = $news -> fetch())
             {
-                echo '<h1>' . strip_tags($data['Title']) . '</h1>';
-                echo '<h2>' . strip_tags($data['Date']) . '</h2>';
+                echo '<h1>' . htmlspecialchars($data['Title']) . '</h1>';
+                echo '<h2>' . htmlspecialchars($data['Date']) . '</h2>';
                 echo '<div class="article_paragraphe">';
                     echo '<p>' . htmlspecialchars_decode($data["Content"]) . '</p>';
                 echo '</div>';
             }
-
             $news -> closeCursor();
         ?> 
     </section>

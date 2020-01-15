@@ -26,7 +26,7 @@ body
     margin: 0;
     margin-bottom: 200px;
     padding: 0;
-    background-color: rgba(248, 239, 239, 0.966);
+    background-color: white
 }
 
 nav ul li a:hover
@@ -38,8 +38,13 @@ nav ul li a:hover
 {
     #Top
     {
+        position: fixed;
         display: flex;
         border-bottom: 1px solid gray;
+        width: 100%;
+        background-color: white;
+        top: 0;
+        z-index: 10;
     }
 
     header
@@ -94,6 +99,7 @@ nav ul li a:hover
         width: 100%;
         height: 500px;
         margin: auto;
+        margin-top: 75px;
     }
 
     #Articles #Articles_Box
@@ -122,6 +128,7 @@ nav ul li a:hover
     section h1
     {
         font-size: 2em;
+        margin-top: 5%;
     }
 
     #Connexion
@@ -236,9 +243,7 @@ nav ul li a:hover
     {
         width: 25%;
         margin: 2% auto;
-        border: 2px solid black;
         background-color: white;
-        box-shadow: 5px 5px 20px 2px;
     }
 
     .paragraphe_box
@@ -254,18 +259,32 @@ nav ul li a:hover
 
     .articles h2
     {
-        background-color: rgb(247, 239, 239);
+        background-color: white;
         margin: 0;
         padding: 10% 0;
+    }
+
+    .articles h2 a
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles h2 a img
+    {
+        margin-top: 5%;
+        width: 75%;
+        height: 150px;
+        border: 1px solid black;
     }
 
 
     .articles h3
     {
-        border-bottom: 1px solid black;
         margin: 0;
         padding-bottom: 10%;
-        background-color: rgb(247, 239, 239); 
+        background-color: white;
     }
 
     .forbiden_access
@@ -328,9 +347,6 @@ nav ul li a:hover
         text-align: center;
         width: 75%;
         margin: auto;
-        border: 2px solid black;
-        box-shadow: 5px 1px 5px 2px;
-        background-color: rgb(240, 245, 245);
     }
 
     #Users_Comments
@@ -368,7 +384,8 @@ nav ul li a:hover
         align-self: center;
         margin: 5% 0;
         text-align: center;
-        background-color: rgb(233, 223, 223);
+        background-color: rgba(217, 241, 255, 0.342);
+        user-select: none;
     }
 
     #Comment_Post #Send_Comment
@@ -505,15 +522,43 @@ nav ul li a:hover
     {
         width: 30%;
         margin: 2% auto;
-        border: 2px solid black;
         background-color: white;
-        box-shadow: 5px 5px 20px 2px;
     }
 
     .articles h2 a
     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-decoration: none;
         animation: change-color 4.0s infinite;
+    }
+
+    .articles h2 a img
+    {
+        margin-top: 5%;
+        width: 75%;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    .articles p
+    {
+        text-align: center;
+        margin: 0;
+    }
+
+    .articles h2
+    {
+        margin: 0;
+        padding: 10% 0;
+    }
+
+
+    .articles h3
+    {
+        margin: 0;
+        padding-bottom: 10%;
     }
 
     .articles h2 a:hover
@@ -645,28 +690,6 @@ nav ul li a:hover
         background-color: white;
     }
 
-    .articles p
-    {
-        text-align: center;
-        margin: 0;
-    }
-
-    .articles h2
-    {
-        background-color: rgb(247, 239, 239);
-        margin: 0;
-        padding: 10% 0;
-    }
-
-
-    .articles h3
-    {
-        border-bottom: 1px solid black;
-        margin: 0;
-        padding-bottom: 10%;
-        background-color: rgb(247, 239, 239); 
-    }
-
     .forbiden_access
     {
         font-size: 50px;
@@ -739,9 +762,6 @@ nav ul li a:hover
         text-align: center;
         width: 90%;
         margin: auto;
-        border: 2px solid black;
-        box-shadow: 5px 1px 5px 2px;
-        background-color: rgb(240, 245, 245);
     }
 
     #Users_Comments
@@ -779,7 +799,8 @@ nav ul li a:hover
         align-self: center;
         margin: 5% 0;
         text-align: center;
-        background-color: rgb(233, 223, 223);
+        background-color: rgba(217, 241, 255, 0.342);
+        user-select: none;
     }
 
     #Comment_Post #Send_Comment
@@ -915,17 +936,44 @@ nav ul li a:hover
 
     .articles
     {
-        width: 75%;
+        width: 80%;
         margin: 2% auto;
-        border: 2px solid black;
         background-color: white;
-        box-shadow: 5px 5px 20px 2px;
     }
 
     .articles h2 a
     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-decoration: none;
         animation: change-color 4.0s infinite;
+    }
+
+    .articles h2 a img
+    {
+        margin-top: 5%;
+        width: 75%;
+        height: 150px;
+    }
+
+    .articles p
+    {
+        text-align: center;
+        margin: 0;
+    }
+
+    .articles h2
+    {
+        margin: 0;
+        padding: 10% 0;
+    }
+
+
+    .articles h3
+    {
+        margin: 0;
+        padding-bottom: 10%;
     }
 
     .articles h2 a:hover
@@ -1057,28 +1105,6 @@ nav ul li a:hover
         background-color: white;
     }
 
-    .articles p
-    {
-        text-align: center;
-        margin: 0;
-    }
-
-    .articles h2
-    {
-        background-color: rgb(247, 239, 239);
-        margin: 0;
-        padding: 10% 0;
-    }
-
-
-    .articles h3
-    {
-        border-bottom: 1px solid black;
-        margin: 0;
-        padding-bottom: 10%;
-        background-color: rgb(247, 239, 239); 
-    }
-
     .forbiden_access
     {
         font-size: 50px;
@@ -1150,9 +1176,6 @@ nav ul li a:hover
         text-align: center;
         width: 90%;
         margin: auto;
-        border: 2px solid black;
-        box-shadow: 5px 1px 5px 2px;
-        background-color: rgb(240, 245, 245);
     }
 
     #Users_Comments
@@ -1195,7 +1218,8 @@ nav ul li a:hover
         align-self: center;
         margin: 5% 0;
         text-align: center;
-        background-color: rgb(233, 223, 223);
+        background-color: rgba(217, 241, 255, 0.342);
+        user-select: none;
     }
 
     #Comment_Post #Send_Comment
