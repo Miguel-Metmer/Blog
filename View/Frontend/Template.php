@@ -10,12 +10,12 @@
 
     <body>
         <?php echo $content?>
+
+        <footer>
+            <a href="index.php?action=Get_Mentions"> Mentions légales </a>
+        </footer>
+
         <script src="https://kit.fontawesome.com/a89d872ece.js" crossorigin="anonymous"></script> <!-- fontawesome script-->
     </body>
-
-    <footer>
-        <a href="index.php?action=Get_Mentions"> Mentions légales </a>
-    </footer>
-
-    <script type="text/javascript" src="../public/js/Tiny.js"> </script>
+    <script src="../public/js/Tiny.js"> </script>
 </html>

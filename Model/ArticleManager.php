@@ -17,7 +17,7 @@ class ArticleManager extends Manager
     {
         $bdd = $this -> connect_To_Database();
         $this->news = $bdd -> prepare("INSERT INTO news(Content, Date, Title) VALUES(:content, :date, :title)");
-        $this->news -> execute(array("content" => strip_tags($_POST['article']), "date" => date('Y-m-d H:i:s'), "title" => strip_tags($_POST['title'])));
+        $this->news -> execute(array("content" => $_POST['article'], "date" => date('Y-m-d H:i:s'), "title" => $_POST['title']));
     }
 
     public function edit_Article()

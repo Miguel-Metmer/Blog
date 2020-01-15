@@ -30,7 +30,7 @@
         </nav>
     </div>
     <div id="Middle-Slider">
-        <img src="Images/Image.jpg" alt="Image de slider">
+        <img src="Images/Alaska.jpg" alt="Image de slider">
     </div>
 
     
@@ -44,7 +44,7 @@
                     if(isset($data))
                     {
                         echo '<div class="articles">';
-                            echo '<h2>' . '<a href=' . 'index.php?action=Get_Article&amp;Id=' . htmlspecialchars($data["Id"]) . '>' . htmlspecialchars($data['Title']) . '</a>' . '</h2>';
+                            echo '<h2>' . '<a href=' . 'index.php?action=Get_Article&amp;Id=' . htmlspecialchars($data["Id"]) . '>' . htmlspecialchars($data['Title']) . '<img src="/Images/Image.jpg">' . '</a>' . '</h2>';
                             echo '<h3>' . htmlspecialchars($data['Date']) . '</h3>';
                             echo '<div class="paragraphe_box">';
                                 echo '<p>' . substr(strip_tags($data['Content']), 0, 270) . '...' . '</p>';
