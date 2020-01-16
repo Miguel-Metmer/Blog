@@ -99,13 +99,15 @@ nav ul li a:hover
         width: 100%;
         height: 500px;
         margin: auto;
-        margin-top: 75px;
+        margin-top: 68px;
     }
 
     #Articles #Articles_Box
     {
         display: flex;
         flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
     }
 
     .articles h2 a
@@ -118,7 +120,6 @@ nav ul li a:hover
     {
         color: royalblue;
     }
-
 
     section h1, h2, h3, h4, h5, h6
     {
@@ -274,7 +275,7 @@ nav ul li a:hover
     .articles h2 a img
     {
         margin-top: 5%;
-        width: 75%;
+        width: 60%;
         height: 150px;
         border: 1px solid black;
     }
@@ -417,6 +418,7 @@ nav ul li a:hover
     #Mentions
     {
         text-align: center;
+        margin-top: 2%;
     }
 
     footer
@@ -1037,7 +1039,7 @@ nav ul li a:hover
     #Connexion form div input
     {
         margin-left: 1%;
-        font-size: 1.5em;
+        font-size: 1.0em;
         border: none;
     }
 
