@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html lang="fr"> 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,6 +16,6 @@
         </footer>
 
         <script src="https://kit.fontawesome.com/a89d872ece.js" crossorigin="anonymous"></script> <!-- fontawesome script-->
+        <script src="../public/js/Tiny.js"></script>
     </body>
-    <script src="../public/js/Tiny.js"> </script>
 </html>
