@@ -8,11 +8,6 @@ class ArticleManager extends Manager
     private $bdd;
     private $news;
 
-
-    public function __construct()
-    {
-    }
-
     public function create_Article()
     {
         $bdd = $this -> connect_To_Database();

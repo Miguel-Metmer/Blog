@@ -75,7 +75,7 @@
                     }
                     else
                     {
-                        echo '<p id="Comment_Post_Unvailable"> Pour laisser un commentaire vous devez être' .  '<a href="index.php?action=To_Connect"> </a> connecter </p>';
+                        echo '<p id="Comment_Post_Unvailable"> Pour laisser un commentaire vous devez être' .  '<a href="index.php?action=To_Connect">  connecter </a> </p>';
                     }
                 ?>
                 

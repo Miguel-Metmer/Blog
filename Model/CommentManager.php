@@ -1,5 +1,6 @@
 <?php
 require_once("Model/Manager.php");
+
 class CommentManager extends Manager
 {
     private $bdd;
@@ -7,10 +8,6 @@ class CommentManager extends Manager
     private $insert;
     private $content;
     private $user;
-
-    public function _construct()
-    {
-    }
 
     private function get_User_Id_By_Surname()
     {

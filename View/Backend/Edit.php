@@ -56,5 +56,5 @@
     ?>
 <?php
    $content = ob_get_clean();
-   include_once("template.php");
+   include_once("View/Frontend/Template.php");
 ?>
